@@ -13,8 +13,14 @@ ToDo:
 
 
 Questions:
-  - Should the elevator track if new possible passengers are own it's path while in motion
+  - Should the elevator track if new possible passengers are on its path while in motion?
+  - Which elevator should handle each request?
+  - Would a Stack approach for passengers be more appropriate? to avoid passengers taking too long to disembark.
+  - should the elevator avoid going in the opposite direction even if it's faster? as passengers might disembark early because they might think the elevator is broken.
+  - How do you calculate whether one allocation is better than another?
+
 
 
 Theories:
+  - The allocation calculation should take into account the time it would take the elevator to arrive the passenger and the journey time to the destination.
   - 
