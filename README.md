@@ -9,7 +9,9 @@ Initial "*Rules*":
 
 
 ToDo:
-  1. Define the optimization problem
+  1. Define the optimization problem.
+  2. High Level Design: 
+  3. Low Level Design: Define the main classes, their responsibilities, and their public methods.
 
 
 Questions:
@@ -22,5 +24,5 @@ Questions:
 
 
 Theories:
-  - The allocation calculation should take into account the time it would take the elevator to arrive the passenger and the journey time to the destination.
+  - The allocation calculation should take into account the time it would take the elevator to arrive the passenger and the journey time to the destination, in addition to stopping time to collect other passengers on the way.
   - 
